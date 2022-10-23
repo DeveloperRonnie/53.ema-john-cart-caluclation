@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { addToDb, getStoredCart } from '../../utilities/fakedb';
 import Cart from '../Cart/Cart';
+import Header from '../Header/Header';
 import Product from '../Product/Product';
 import './Shop.css';
 
